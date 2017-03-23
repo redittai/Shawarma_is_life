@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "229449236822",
+    "firebase_url": "https://findshawarma-856f9.firebaseio.com",
+    "project_id": "findshawarma-856f9",
+    "storage_bucket": "findshawarma-856f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229449236822:android:e72871d542f920a5",
+        "android_client_info": {
+          "package_name": "redittai.shawarma.user.findmeashawarma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229449236822-vnc7rit5em8g5lpkgra51msvqt0hinvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjHvi0edbBlvPMXYoBvhAdX_KIqrInXJM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229449236822:android:49b32d6b2d977744",
+        "android_client_info": {
+          "package_name": "redittai.com.shawarma.is.life"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229449236822-1r6ubhhs2qfebg28o6mokvq8rgpsbmlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "redittai.com.shawarma.is.life",
+            "certificate_hash": "D02816DBA4C94DABA73D8C4794C548DE91531203"
+          }
+        },
+        {
+          "client_id": "229449236822-vnc7rit5em8g5lpkgra51msvqt0hinvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjHvi0edbBlvPMXYoBvhAdX_KIqrInXJM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229449236822-vnc7rit5em8g5lpkgra51msvqt0hinvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

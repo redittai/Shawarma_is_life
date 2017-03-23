@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/adapterEDName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/adapterChekParking"
+            android:textStyle="bold"
+            android:autoText="false"
+            android:gravity="start"
+            android:textAlignment="textStart"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"/>
+
+
+        <TextView
+            android:text="distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewdistance"
+            android:inputType="text"
+            android:textColor="@color/grey"
+            android:layout_weight="1.40"
+            android:layout_marginLeft="16dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginLeft="8dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.59">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kosher"
+                android:id="@+id/adapterChekKosher"
+                android:checked="false"
+                android:textColor="#000000"
+                android:lines="@integer/abc_config_activityDefaultDur"
+                android:layout_above="@+id/adapterEDPita"
+                android:layout_toStartOf="@+id/adapterWazeBTN"
+                android:clickable="false"
+                android:enabled="true"
+                android:outlineProvider="bounds"
+                android:layout_toLeftOf="@+id/adapterWazeBTN" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parking"
+                android:id="@+id/adapterChekParking"
+                android:checked="false"
+                android:textColor="#000000"
+                android:lines="@integer/abc_config_activityDefaultDur"
+                android:layout_above="@+id/adapterEDPita"
+                android:layout_alignEnd="@+id/adapterEDPita"
+                android:clickable="false"
+                android:enabled="true"
+                android:outlineProvider="bounds"
+                android:layout_alignRight="@+id/adapterEDPita" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="Pita"
+                android:ems="10"
+                android:id="@+id/adapterEDPita"
+                android:textColor="#000000"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:inputType="textPersonName"
+                android:text="Laffa"
+                android:ems="10"
+                android:id="@+id/adapterEDLaffa"
+                android:textColor="#000000"
+                android:layout_below="@+id/adapterEDPita"
+                android:layout_toEndOf="@+id/adapterEDPita"
+                android:textSize="20dp"
+                android:layout_toRightOf="@+id/adapterEDPita" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="8dp">
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/adapterRating"
+            android:paddingBottom="4dp"
+            android:numStars="5"
+            android:theme="@style/RatingBar"
+            android:layout_alignParentStart="false"
+            android:clickable="false"
+            android:nestedScrollingEnabled="false"
+            android:outlineProvider="bounds"
+            android:alpha="100"
+            android:layout_gravity="center"
+            android:foregroundGravity="center_horizontal|center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="center"
+        android:paddingBottom="8dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/adapterWazeBTN"
+            android:src="@drawable/waze1"
+            android:background="#fdfafa"
+            android:layout_gravity="center_horizontal|center"
+            android:foregroundGravity="center"/>
+
+        <ImageButton
+            android:src="@drawable/whats1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/whats"
+            tools:layout_weight="0"
+            android:background="@color/cast_expanded_controller_ad_container_white_stripe_color"
+            android:layout_weight="0.05"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

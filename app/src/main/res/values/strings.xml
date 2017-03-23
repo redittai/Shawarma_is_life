@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Find Shawarma</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="add">הוסף חנות</string>
+    <string name="show">הצג חנויות</string>
+    <string name="pita">פיתה</string>
+    <string name="laffa">לאפה</string>
+    <string name="kosher">כשר</string>
+    <string name="parking">חניה</string>
+    <string name="hintPita">הכנס/י מחיר לפיתה</string>
+    <string name="hintLaffa">הכנס/י מחיר לאפה</string>
+    <string name="egel">עגל</string>
+    <string name="pargit">פרגית</string>
+    <string name="ceves">הודו</string>
+    <string name="hintName">הכנס/י את שם החנות</string>
+    <string name="dialog_message">דרג את השווארמה</string>
+    <string name="dialog_title">עזור לנו להשתפר, דרג את השווארמה</string>
+    <string name="yesRate">בטח!</string>
+    <string name="noRate">כבר דירגתי בעבודה</string>
+    <string name="toast">דרג את החנות בבקשה</string>
+    <string name="add_notice">שים לב! כדי לשמור את המיקום המדוייק עליך להוסיף את החנות בתוך/ בפתח החנות עצמה!</string>
+    <string name="no_gps">GPS כבוי, הדלק בכדי להשתמש ביעילות</string>
+    <string name="distance">מרחק</string>
+    <string name="kilometer">ק"מ</string>
+    <string name="invite">אני בדרך ל+nname+ רוצה להצטרף?</string>
+</resources>
